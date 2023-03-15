@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.orange,
+      backgroundColor: Colors.grey.shade300,
       body: ListView(
         children: [
           const SizedBox(
@@ -31,6 +31,7 @@ class HomePage extends StatelessWidget {
             subtitle: const Text('Para ver que tanto Conoces'),
             trailing: const Icon(Icons.arrow_forward_ios),
             leading: const CircleAvatar(
+              backgroundColor: Colors.amber,
               child: Text('🧠'),
             ),
             onTap: () {
@@ -45,6 +46,7 @@ class HomePage extends StatelessWidget {
             subtitle: const Text('Como si estuvieras tirando los Dados'),
             trailing: const Icon(Icons.arrow_forward_ios),
             leading: const CircleAvatar(
+              backgroundColor: Colors.black,
               child: Text('🎲'),
             ),
             onTap: () {
@@ -59,6 +61,7 @@ class HomePage extends StatelessWidget {
             subtitle: const Text('Para responder todas tus Preguntas'),
             trailing: const Icon(Icons.arrow_forward_ios),
             leading: const CircleAvatar(
+              backgroundColor: Colors.green,
               child: Text('🎱'),
             ),
             onTap: () {
@@ -73,6 +76,7 @@ class HomePage extends StatelessWidget {
             subtitle: const Text('Para crear Musica al Instante'),
             trailing: const Icon(Icons.arrow_forward_ios),
             leading: const CircleAvatar(
+              backgroundColor: Colors.white,
               child: Text('🎶'),
             ),
             onTap: () {
